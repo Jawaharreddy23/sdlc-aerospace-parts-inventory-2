@@ -1,0 +1,15 @@
+# Secrets - never commit real tokens
+config.json
+
+# Local state
+.venv/
+.venv-build/
+__pycache__/
+build/
+dist/
+database/*.db
+artifacts/
+
+# OS noise
+.DS_Store
+Thumbs.db
